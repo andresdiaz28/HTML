@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles acceso.css">
+</head>
+<body style="background-image: url(./assets/img/portfolio/6086097e744f6fd2c9aceae5fb35c3d5.jpg); background-size:100%; 
+            background-position: center; background-repeat: no-repeat"></body>
+    <div class="login-container">
+        <h2>Ingreso</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Usuario:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-yellow btn-block">Ingresar</button>
+        </form>
+        <div id="message" class="message"></div>
+        <a id="registerLink" class="register-link" href="https://example.com/registrarse" style="display: none;">Regístrese aquí</a>
+    </div>
+
+    <script src="app acceso.js"></script>
+</body>
+</html>
